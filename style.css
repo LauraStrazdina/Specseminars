@@ -1,0 +1,95 @@
+html {
+    background: #eaeafb;
+    margin-top: 0.5%;
+}
+
+#navigationBar{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: #aaaaee;
+}
+
+#navigationBarList {
+    list-style-type: none;
+}
+.navigationBarElement {
+    display: inline;
+    padding: 1.5%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navigationBarElement:hover{
+  background-color:  #9595ea;
+  /*font-size: 115%;*/
+}
+
+.link{
+  color: inherit;
+  text-decoration: none;
+}
+
+#titleContainer{
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+#title{
+  display: inline-block;
+  color:   #1d1d95;
+  font-size: 300%;
+  padding-bottom: 2%;
+  text-transform: uppercase;
+}
+
+#summary{
+  padding-bottom: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: justify;
+}
+
+#imageTitle{
+  width: 95%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row{
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.image {
+  width: 75%;
+  height: 75%;
+}
+
+.smallTitle{
+  padding-bottom: 2%;
+  color:   #1d1d95;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.text{
+  text-align: justify;
+}
+
+#bottomNavigationBar{
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  background-color: #aaaaee;
+  text-align: center;
+  color: #ffffff;
+}
