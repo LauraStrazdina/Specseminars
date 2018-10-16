@@ -36,6 +36,10 @@ span {
   text-decoration: none;
 }
 
+#imageAndTitle{
+  margin-bottom:2%;
+}
+
 #titleContainer{
   text-align: center;
   margin-top: 4%;
