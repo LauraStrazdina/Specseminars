@@ -73,6 +73,7 @@ span {
 .columnUp{
   float: left;
   width: 50%;
+  margin-bottom: 1%;
 }
 
 .column {
@@ -147,7 +148,7 @@ span {
   opacity: 0.5;
 }
 
-#factsTitle{
+.fullWidthTitle{
   text-align: center;
   margin-top:1%;
 }
