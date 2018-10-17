@@ -39,6 +39,7 @@ span {
 #imageAndTitle{
   margin-bottom:2%;
   color: #1d1d95;
+  text-transform: uppercase;
 }
 
 #titleContainer{
