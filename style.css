@@ -111,6 +111,7 @@ span {
   text-align: justify;
   padding-right: 10%;
   padding-left: 10%;
+  text-indent: 40px;
 }
 
 #bottomNavigationBar{
@@ -156,6 +157,7 @@ span {
   margin-right: 2.5%;
   text-align: justify;
   padding-top: 0.5%;
+  text-indent: 40px;
 }
 
 .imageBigger {
