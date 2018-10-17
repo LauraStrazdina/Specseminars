@@ -10,6 +10,7 @@ html {
   background-color: #aaaaee;
   position: fixed;
   width: 99%;
+  z-index: 1;
 }
 
 #navigationBarList {
@@ -24,7 +25,6 @@ html {
 
 .navigationBarElement:hover{
   background-color:  #9595ea;
-  /*font-size: 115%;*/
 }
 
 span {
@@ -44,14 +44,12 @@ span {
 #titleContainer{
   text-align: center;
   margin-top: 4%;
-  margin-bottom: 4%;
   position: relative;
 }
 
 #title{
   display: inline-block;
   color:   #1d1d95;
-  font-size: 300%;
   padding-bottom: 2%;
   text-transform: uppercase;
 }
@@ -61,13 +59,6 @@ span {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-#summary{
-  padding-bottom: 2%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
-  text-align: justify;
 }
 
 #imageTitle{
@@ -86,6 +77,11 @@ span {
 .column {
     float: left;
     width: 25%;
+}
+
+.columnPictures{
+  float:left;
+  width: 20%;
 }
 
 .row {
@@ -147,4 +143,31 @@ span {
   margin-left:2%;
   border-radius: 50%;
   opacity: 0.5;
+}
+
+#factsTitle{
+  text-align: center;
+  margin-top:1%;
+}
+
+.fullWidthText{
+  padding-bottom: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  text-align: justify;
+  padding-top: 0.5%;
+}
+
+.imageBigger {
+  width: 35%;
+  height: 35%;
+}
+
+.imageSmaller{
+  width:100%;
+  height:100%;
+}
+
+.oneStory{
+  padding-bottom: 1%;
 }
