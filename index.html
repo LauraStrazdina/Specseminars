@@ -1,528 +1,485 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <title>Natural vs Artificial Light</title>
+    <link rel="icon" href="images/bulb3.png">
+    <meta name="author" content="Anete un Laura">
+
+    <style>
+      @font-face {
+        font-family: "Avenir Next";
+        src: url("fonts/Avenir_Next.eot");
+        src:
+        url("fonts/Avenir_Next.woff") format("woff"),
+        url("fonts/Avenir_Next.otf") format("opentype"),
+        url("fonts/Avenir_Next.svg#filename") format("svg");
+      }
+    </style>
   </head>
 
   <body>
-    <div id="navigationBar">
-      <ul id="navigationBarList">
-        <li class="navigationBarElement"><a class="link" href="#history">Light history</a></li>
-        <li class="navigationBarElement"><a class="link" href="#facts">Light facts</a></li>
-        <li class="navigationBarElement"><a class="link" href="#natural">Natural light</a></li>
-        <li class="navigationBarElement"><a class="link" href="#artificial">Artificial light</a></li>
-        <li class="navigationBarElement"><a class="link" href="#first">Section 1</a></li>
-        <li class="navigationBarElement"><a class="link" href="#second">Section 2</a></li>
-        <li class="navigationBarElement"><a class="link" href="#third">Section 3</a></li>
-        <li class="navigationBarElement"><a class="link" href="#slideShow">Slide Show</a></li>
-
-      </ul>
-    </div>
-
-    <div id="titleContainer">
-      <div id="imageAndTitle">
-        <img src="images/width.jpg" alt="example">
-        <div class="centered" style="font-size:40px"><span>Natural Light Versus Artificial Light</span></div>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#facts">Facts</a></li>
+            <li><a href="#natural">Natural light</a></li>
+            <li><a href="#artificial">Artificial light</a></li>
+            <li><a href="#slideShow">Photo Gallery</a></li>
+          </ul>
+        </div>
       </div>
-      <div class = "fullWidthText" id="summary">
-        Light is a form of energy. It is the type of electromagnetic ration like rays or radio waves.
-        All electromagnetic radiation is produced by electric charges. It is caused by the effect of oscillating
-        electric and magnetic fields a so they travel through space. Electromagnetic radiation is considered to have
-         both wave and particle properties. It can be thought of as a wave of electricity and magnetism. In that case,
-         the difference between various form of radiation is their wavelength. Radiation can also be said to consist
-         of particle, or packets of energy called photons. The difference between light and x rays for instance is
-         amount of energy that each photon carries. The complete range of radiation is referred to as the electromagnetic
-         spectrum extending from low energy, short wavelength radio wave to high energy short wavelength gamma rays.
-          Light is the only part of the electromagnetic spectrum that is visible.
-      </div>
-    </div>
+    </nav>
 
-    <div class = "section" id="history">
-      <div class ="smallTitle fullWidthTitle" id="historyTitle">Light history</div>
-
-      <div class = "fullWidthText" >
-        Light is one of life’s necessities. We would not be on this planet if there was no light. When there is no
-        natural light, we need artificial. And that’s how it is from the beginning. Some 400,000 BC Homo erectus
-        finds fire, most likely by accident when a lightning hit a tree or a bush. Human development was born from
-        that accident.
-
-        First portable light was a torch - a branch or a bundle of sticks tied together with one end doused in a flammable
-        liquid and lit. Around 70,000 first primitive oil lamps appeared. They were made from hollow stones or shells that
-        were filled with moss soaked with animal fat. In ancient Greece they were first made from clay on a pottery wheel
-        and then in moulds which gave better quality and enabled mass production. First candles were made in China in 200
-        BC from whale fat with rice paper wick. Through time they were made from other materials too, like tallow, spermaceti,
-        colza oil and beeswax until the discovery of paraffin wax which made production of candles cheap and candles
-        affordable to everyone. Wick was also improved over time and made from paper, cotton, hemp and flax with different
-        times and ways of burning.
-      </div>
-      <div class="row">
-        <div class="columnUp">
-          <div>
-            <img class="imageBigger round" src="images/sun.jpg" alt="example">
+    <div id="home" class="container-fluid bg-3 text-center" style="color: white; background-image: url(images/title1.png); height: 350px" id="home">
+      <div class="row content">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8" style="padding:20px; padding-top:100px;">
+          <div style="background-color: rgba(0, 0, 0, 0.5); padding:10px">
+            <h1>Natural Light vs Artificial Light</h1>
+            <p class="handwriting size">In nature, light creates the color.
+              <br>
+              In the picture, color creates the light.</p>
           </div>
         </div>
-
-        <div class="columnUp">
-              <div class="text">
-                - Early history of lightning is marked with simple and primitive but ingenious solutions
-                that early and ancient men used to fight against the darkness.
-              </div>
-
-              <div class="text">
-                - With advent of electric current begins an era of the fastest progress in human history. Problems that
-                looked unsolvable were now looked at from the new angles. With them were problems of public lightning.
-              </div>
-
-              <div class="text">
-                - Every safe light source in the history had some sort of protection that protected source from
-                the outer world and the outer world from the source. For electric light source, it was a bulb.
-              </div>
-          </div>
-
-      </div>
-
-      <div class="fullWidthText">
-        Oil lamps stayed pretty much the same until the 18th century and the man called Aime Argand. He was Swiss
-        hemist and he made an “Argand lamp” which was improved variant of an oil lamp. It had cylindrical wick that
-        gave larger flame and with that more light, it had an opening on the bottom that fed the flame with fresh oxygen
-        and a cylindrical glass chimney that directed the draft from bellow and protected surroundings from the flame.
-        In 1846, doctor and geologist Abraham Gesner distilled kerosene from coal and found that it is flammable
-        and that it burns with much brighter light than oil.
-      </div>
-
-      <div class="fullWidthText">
-        First kerosene lamps were independently made by Ignacy Łukasiewicz of Poland and Edwin Dietz of USA in 1853.
-        They were designed to have container for kerosene, flat or a tubular wick or mantle and a glass chimney. After
-        centuries of different but not too effective solutions for public illumination in 1792, inventor William Murdoch
-        used gas distilled from the coal to illuminate his house. In 1807, London got a first street illuminated with
-        gas lanterns. Gas lanterns were placed on the posts and lit and extinguished by hand every evening and morning.
-        After that other cities of the world followed. Until electricity came.
-      </div>
-      
-      <div class="fullWidthText">
-        At the beginning of 19th century, Sir Humphry Davy set foundations for electrical lightning. He performed an
-        experiment with a battery and a platinum strip, which made a connected strip glow. That was the beginning of
-        an incandescent light lamp. After him, many inventors tried to improve incandescent light bulb until Sir Joseph
-        Swann and Tomas Edison did succeed with a better vacuum and a carbon filament. After that, electric lightning
-        spread the world and is still here today in the same and in improved forms.
-      </div>
-    </div>
-
-    <!-- bildites pec nodalas  -->
-    <div class="row">
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
+        <div class="col-sm-2 handwriting rotate-left">
         </div>
       </div>
     </div>
 
-
-<!-- jauna sadala  -->
-
-    <div class = "section" id="facts">
-      <div class ="smallTitle fullWidthTitle" id="factsTitle">Light facts</div>
-      <div class = "fullWidthText" id ="factsIntro">
-        <div class ="oneStory">
-          We see light from the sun every day. Light is measured in ‘waves’ and the light that we can see
-          is only a small portion of the types of light. They are measured in the ‘electromagnetic spectrum’.
-          The human eye sees specific areas of the spectrum, but other animals and insects can actually see parts
-          of the spectrum that we can’t.
+    <div class="container-fluid bg-3" style="padding-bottom:1%;">
+      <h3 class="text-center">What is light?</h3><br>
+      <div class="row content">
+        <div class="col-sm-3">
+          <div class="handwriting">
+          </div>
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius:50%" alt="Image">
         </div>
-
-        <div class ="oneStory">
-          Light is an energy beam that moves in wavelengths. It is made up of tiny photons, each contains a
-          lot of energy. The strength of the light depends upon the amount of energy each photon contains.
+        <div class="col-sm-9" style="padding:20px">
+          <p>
+            Light is a form of energy. It is the type of electromagnetic ration like rays or radio waves.
+            All electromagnetic radiation is produced by electric charges. It is caused by the effect of
+            oscillating electric and magnetic fields a so they travel through space. Electromagnetic radiation
+            is considered to have both wave and particle properties. It can be thought of as a wave of electricity
+            and magnetism. In that case, the difference between various form of radiation is their wavelength.
+            Radiation can also be said to consist of particle, or packets of energy called photons. The difference
+            between light and x rays for instance is amount of energy that each photon carries. The complete range
+            of radiation is referred to as the electromagnetic spectrum extending from low energy, short wavelength
+            radio wave to high energy short wavelength gamma rays. <b>Light is the only part of the electromagnetic
+            spectrum that is visible.</b>
+          </p>
         </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="columnUp">
-              <div class="text">
-                - A light wave is made up of energy in the form of magnetic and electric fields.
-                These fields have a right angle vibration to the wave direction of movement and
-                 at right angles to each other.
-              </div>
-
-              <div class="text">
-                - Light will travel in a completely straight line until it hits an object that
-                will bend it. The light that is in a straight line are called ‘light waves’.
-              </div>
-
-              <div class="text">
-                - The study of the behavior and properties of light is known as ‘optics’.
-                This is a scientific branch of physics.
-              </div>
-
-              <div class="text">
-                - Light travels in a vacuum at 300,000 km per second (186,000 miles per second).
-              </div>
-
-              <div class="text">
-                - Space does not have any light. We can see things in space due to light bouncing off of the objects in space.
-              </div>
-          </div>
-
-        <div class="columnUp">
-          <div>
-            <img class="imageBigger round" src="images/sun.jpg" alt="example">
+    <div id="history" class="container-fluid bg-3 quote1">
+      <h3 class="small-screen-h3 text-center">History about light.</h3><br>
+      <div class="row content">
+        <div class="col-sm-9 padding">
+          <p>
+            Light is one of life’s necessities. We would not be on this planet if there was no light. When there is no natural light, we need artificial. And that’s how it is from the beginning. Some 400,000 BC Homo erectus finds fire, most likely by accident when a lightning hit a tree or a bush. Human development was born from that accident. First portable light was a torch - a branch or a bundle of sticks tied together with one end doused in a flammable liquid and lit. Around 70,000 first primitive oil lamps appeared. They were made from hollow stones or shells that were filled with moss soaked with animal fat. In ancient Greece they were first made from clay on a pottery wheel and then in moulds which gave better quality and enabled mass production. First candles were made in China in 200 BC from whale fat with rice paper wick. Through time they were made from other materials too, like tallow, spermaceti, colza oil and beeswax until the discovery of paraffin wax which made production of candles cheap and candles affordable to everyone. Wick was also improved over time and made from paper, cotton, hemp and flax with different times and ways of burning.
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <div class="handwriting text-center">
+            <p>
+              Early history of lightning is marked with simple and primitive but ingenious solutions that early and ancient men used to fight against the darkness.
+            </p>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class = "fullWidthText">
-        <div class ="oneStory">
-          Light doesn’t travel as fast when it has to pass through mediums that are different, such as air,
-          water or glass. These mediums cause the light to ‘refract’ and that slows the light down. The
-          refractive index of glass is 1.5, slowing the speed of light down to 200,000 km per second (124,000
-          miles per second). Water has a refractive index of 1.3 and the refractive index of air is 1.0003. Air
-          slows light down only a small amount.
-        </div>
-
-        <div class ="oneStory">
-          Isaac Newton studied light as it hit a glass prism. When he saw the light expand into the different colors
-          (ROYGBIV): red, orange, yellow, blue, indigo, violet, he realized that light refracts and each color traveled
-          through glass (or other materials) at varying speeds. We can see the same thing happen when we see light through
-          a prism or even when we see a rainbow. Each color within light has a different wave length.
-        </div>
-
-        <div class="oneStory">
-          Each type of light has a varying length of ‘wave’. Some animals can see ultraviolet light (UV) but the wavelength
-          is not available for the human eye to see. Scientists have developed technology so that we can view UV light.
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="columnUp">
-          <div>
-            <img class="imageBigger round" src="images/bulb.jpg" alt="example">
+    <div class="container-fluid bg-3 text-center" style="padding-top:1%;">
+      <h3 class="text-center">History about lamps.</h3><br>
+      <div class="row content">
+        <div class="col-sm-3">
+          <div class="handwriting">
+            <p>
+              With advent of electric current begins an era of the fastest progress in human history. Problems that looked unsolvable were now looked at from the new angles. With them were problems of public lightning.
+            </p>
           </div>
         </div>
-
-        <div class="columnUp">
-            <div class="text">
-              - Infrared light has a wavelength that is too long for the human eye as well.
-            </div>
-            <div class="text">
-              - The speed of light is incredible. For light to get from the earth to the moon it takes only 1.255 seconds.
-            </div>
-            <div class="text">
-              - Light that we see from the sun actually left the sun ten minutes before we see it.
-            </div>
-            <div class="text">
-              - Sunlight is pretty powerful. Light from the sun can reach 262 feet (80 meters) in the ocean.
-            </div>
+        <div class="col-sm-6" style="padding:20px" >
+          <p>
+            Oil lamps stayed pretty much the same until the 18th century and the man called Aime Argand. He was Swiss hemist and he made an “Argand lamp” which was improved variant of an oil lamp. It had cylindrical wick that gave larger flame and with that more light, it had an opening on the bottom that fed the flame with fresh oxygen and a cylindrical glass chimney that directed the draft from bellow and protected surroundings from the flame. In 1846, doctor and geologist Abraham Gesner distilled kerosene from coal and found that it is flammable and that it burns with much brighter light than oil.
+            <br>
+            <br>
+            First kerosene lamps were independently made by Ignacy Łukasiewicz of Poland and Edwin Dietz of USA in 1853. They were designed to have container for kerosene, flat or a tubular wick or mantle and a glass chimney. After centuries of different but not too effective solutions for public illumination in 1792, inventor William Murdoch used gas distilled from the coal to illuminate his house. In 1807, London got a first street illuminated with gas lanterns. Gas lanterns were placed on the posts and lit and extinguished by hand every evening and morning. After that other cities of the world followed. Until electricity came.
+          </p>
         </div>
-      </div>
-
-      <div class = "fullWidthText">
-        <div class ="oneStory">
-          Galileo Galilei was an Italian scientist that developed a number of scientific discoveries. One of them
-          was the creation of a telescope that was thirty times the magnification of other telescopes. He used his
-          telescope to look at many of the planets and discovered four of the largest moons that were orbiting around
-          Jupiter. These four moons were called ‘Galilean satellites’.
-        </div>
-
-        <div class="oneStory">
-          Light can be controlled and produced in so many ways. A camera can control the amount of light that comes into
-          the camera lens. We also use light in televisions, medical systems, copy machines, telescopes and satellites.
-        </div>
-
-        <div class="oneStory">
-          Light is used by plants to convert the light into energy as their ‘food’. The process is called ‘photosynthesis’
-          and converts carbon dioxide through the energy of the light.
+        <div class="col-sm-3">
+          <div class="handwriting">
+            <p>
+              Every safe light source in the history had some sort of protection that protected source from the outer world and the outer world from the source. For electric light source, it was a bulb.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- bildites pec nodalas  -->
-    <div class="row">
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
+    <div class="container-fluid bg-3 text-center quote1">
+      <h3 class="small-screen-h3">History about electric light.</h3><br>
+      <div class="row content">
+        <div class="col-sm-3">
+          <img src="images/history1.jpg" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
         </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
+        <div class="col-sm-6 padding">
+          <p>
+            At the beginning of 19th century, Sir Humphry Davy set foundations for electrical lightning. He performed an experiment with a battery and a platinum strip, which made a connected strip glow. That was the beginning of an incandescent light lamp. After him, many inventors tried to improve incandescent light bulb until Sir Joseph Swann and Tomas Edison did succeed with a better vacuum and a carbon filament. After that, electric lightning spread the world and is still here today in the same and in improved forms.
+          </p>
         </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/sun.jpg" alt="example">
-        </div>
-      </div>
-      <div class="columnPictures">
-        <div>
-          <img class="imageSmaller" src="images/bulb.jpg" alt="example">
+        <div class="col-sm-3">
+          <div class="handwriting">
+            <p>
+              <!-- Hedy Lamarr -->
+            </p>
+          </div>
+          <img src="images/history2.jpg" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
         </div>
       </div>
     </div>
 
-      <!-- seit sakas nakama nodala  -->
-    <div id="artificialAndNaturalLight">
-      <div class="row">
-        <div class="columnUp">
-            <div class="smallTitle" id="natural">What is natural light?</div>
-            <div class="text">
+    <div id="facts" class="container-fluid bg-3 text-center" style="padding-top:1%;">
+      <h3>Facts about light.</h3><br>
+      <div class="row content">
+        <div class="col-sm-2">
+          <div class="handwriting">
+            <p>
+            </p>
+          </div>
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius:50%" alt="Image">
+        </div>
+        <div class="col-sm-6" style="padding:20px" >
+          <p>
+            We see light from the sun every day. Light is measured in ‘waves’ and the light that we can see is only a small portion of the types of light. They are measured in the ‘electromagnetic spectrum’. The human eye sees specific areas of the spectrum, but other animals and insects can actually see parts of the spectrum that we can’t.
+          </p>
+        </div>
+        <div class="col-sm-4 handwriting">
+          <p>
+            Light will travel in a completely straight line until it hits an object that will bend it. The light that is in a straight line are called ‘light waves’
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 ligt-grey text-center">
+      <div class="row content">
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            Light travels in a vacuum at 300,000 km per second
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px" >
+          <p>
+            Light is used by plants to convert the light into energy as their ‘food’. The process is called ‘photosynthesis’ and converts carbon dioxide through the energy of the light.
+          </p>
+        </div>
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row content">
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px">
+          <p>
+            Light doesn’t travel as fast when it has to pass through mediums that are different, such as air, water or glass. These mediums cause the light to ‘refract’ and that slows the light down. The refractive index of glass is 1.5, slowing the speed of light down to 200,000 km per second (124,000 miles per second). Water has a refractive index of 1.3 and the refractive index of air is 1.0003. Air slows light down only a small amount.
+          </p>
+        </div>
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            Infrared light has a wavelength that is too long for the human eye as well
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 pink grad text-center">
+      <div class="container-fluid text-center" style="background-color:#150e38" style="width: 1000px">
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            Light that we see from the sun actually left the sun ten minutes before we see it
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px" >
+          <p>
+            Isaac Newton studied light as it hit a glass prism. When he saw the light expand into the different colors (ROYGBIV): red, orange, yellow, blue, indigo, violet, he realized that light refracts and each color traveled through glass (or other materials) at varying speeds. We can see the same thing happen when we see light through a prism or even when we see a rainbow. Each color within light has a different wave length.
+          </p>
+        </div>
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="container-fluid text-center">
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px" >
+          <p>
+            Each type of light has a varying length of ‘wave’. Some animals can see ultraviolet light (UV) but the wavelength is not available for the human eye to see. Scientists have developed technology so that we can view UV light.
+          </p>
+        </div>
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            For light to get from the earth to the moon it takes only 1.255 seconds.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 ligt-grey text-center">
+      <div class="row content">
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            Light from the sun can reach 80 meters in the ocean
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px" >
+          <p>
+            Galileo Galilei was an Italian scientist that developed a number of scientific discoveries. One of them was the creation of a telescope that was thirty times the magnification of other telescopes. He used his telescope to look at many of the planets and discovered four of the largest moons that were orbiting around Jupiter. These four moons were called ‘Galilean satellites’.
+          </p>
+        </div>
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+      <div class="row content">
+        <div class="col-sm-1" style="padding:20px">
+          <p>
+          </p>
+        </div>
+        <div class="col-sm-7" style="padding:20px">
+          <p>
+            Light can be controlled and produced in so many ways. A camera can control the amount of light that comes into the camera lens. We also use light in televisions, medical systems, copy machines, telescopes and satellites.
+          </p>
+        </div>
+        <div class="col-sm-4 handwriting" style="padding:20px">
+          <p>
+            We can see things in space due to light bouncing off of the objects in space
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="natural" class="container-fluid bg-3 text-center quote2">
+      <!-- <h3>Her Code Got Humans on the Moon</h3><br> -->
+      <div class="row content">
+        <div class="col-sm-6">
+          <div style="padding:20px">
+            <img src="images/sun2.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+            <h3>What is natural light?</h3>
+            <p>
               Natural light is the light generated naturally. The most common source of natural light on
-              Earth is the Sun. We receive natural light throughout our sunlight hours, whether we want it or
-              not. That is, we cannot control the amount, duration and intensity of the natural light. The light
-              we obtain from Sun covers the entire visible spectrum, with violet at one end and red at the other.
-               This light is good for our health and is necessary for plants to carry out photosynthesis. Fire is
-                another source of natural light.
-            </div>
-        </div>
-
-        <div class="columnUp">
-            <div class="smallTitle" id="artificial">What is artificial light?</div>
-            <div class="text">
-              Artificial light is generated by artificial sources, such as incandescent lamps, compact fluorescent
-              lamps (CFLs), LEDs, etc. We can control the quality, quantity and duration of this light by controlling
-               a number of factors. Artificial light is necessary for us to work during hours of low lighting (evening
-                and/or night). The artificial light does not cover the entire light spectrum and is not too conducive
-                to photosynthesis or health of life forms.
-            </div>
-        </div>
-      </div>
-
-      <div class="row" id="first">
-        <div class="column">
-          <img class="image round" src="images/sun.jpg" alt="example">
-        </div>
-
-        <div class="column">
-          <div>
-            <div class="smallTitle" id="first">Sun</div>
-            <div class="text">
-              The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-               Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-               inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-               than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-               Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-               (15.5 million Celsius) at the core.
-           </div>
+              Earth is the Sun. We receive natural light throughout our sunlight hours, whether we want
+              it or not. That is, we cannot control the amount, duration and intensity of the natural light.
+              The light we obtain from Sun covers the entire visible spectrum. This light is good for our
+              health and is necessary for plants to carry out photosynthesis. Fire is another source of natural light.
+            </p>
           </div>
         </div>
-
-        <div class="column">
-            <div class="smallTitle" id="first">Bulb</div>
-            <div class="text">
-              The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-               Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-               inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-               than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-               Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-               (15.5 million Celsius) at the core.
-           </div>
-        </div>
-
-        <div class="column">
+        <div id="artificial" class="col-sm-6">
           <div>
-            <img class="image round" src="images/bulb.jpg" alt="example">
+            <img src="images/bulb2.png" align="middle" style="padding-top:20px; width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+            <h3>What is artificial light?</h3>
+            <p>
+              Artificial light is generated by artificial sources, such as incandescent lamps, compact
+              fluorescent lamps (CFLs), LEDs, etc. We can control the quality, quantity and duration of
+              this light by controlling a number of factors. Artificial light is necessary for us to work
+              during hours of low lighting (evening and/or night). The artificial light does not cover the
+              entire light spectrum and is not too conducive to photosynthesis or health of life forms.
+            </p>
           </div>
         </div>
-      </div>
-
-      <div class="row" id="second">
-        <div class="column">
-          <div>
-            <div class="smallTitle">Stars</div>
-            <div class="text">
-              The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-               Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-               inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-               than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-               Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-               (15.5 million Celsius) at the core.
-           </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <img class="image round" src="images/stars.jpg" alt="example">
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <img class="image round" src="images/lights.png" alt="example">
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <div class="smallTitle">Light Chain</div>
-            <div class="text">
-              The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-               Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-               inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-               than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-               Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-               (15.5 million Celsius) at the core.
-           </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row" id="third">
-        <div class="column">
-          <div>
-            <img class="image round" src="images/fire.jpeg" alt="example">
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <div class="smallTitle">Fire</div>
-            <div class="text">
-            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-             Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-             inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-             than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-             Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-             (15.5 million Celsius) at the core.
-           </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <div class="smallTitle">Artificial Fireplace</div>
-            <div class="text">
-            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet
-             Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff
-             inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more
-             than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees
-             Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit
-             (15.5 million Celsius) at the core.
-           </div>
-          </div>
-        </div>
-
-        <div class="column">
-          <div>
-            <img class="image round" src="images/fireplace.jpg" alt="example">
-          </div>
-        </div>
-
       </div>
     </div>
 
-    <div id="slideShow" class="w3-content w3-display-container">
-      <img class="mySlides" src="images/example1.jpg">
-      <img class="mySlides" src="images/example2.jpg">
-      <img class="mySlides" src="images/example3.jpg">
-      <img class="mySlides" src="images/example4.jpg">
-      <img class="mySlides" src="images/example5.jpg">
+    <div class="container-fluid bg-3 text-center" style="padding-top:1%;">
+      <div class="row content">
+        <div class="col-sm-3" style="padding:20px">
+          <div>
+          </div>
+          <img src="images/sun3.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <h3>Sun</h3><br>
+          <p>
+            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet Earths across its surface. If the sun were a hollow ball, more than a million Earths could stuff inside it. But the sun isn't hollow; it's filled with scorching hot gases that account for more than 99.8 percent of the total mass in the solar system. The temperature is about 10,000 degrees Fahrenheit (5,500 degrees Celsius) on the surface and more than 28 million degrees Fahrenheit (15.5 million Celsius) at the core.
+          </p>
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <h3>Bulb</h3><br>
+          <p>
+            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet Earths across its surface.
+          </p>
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <img src="images/bulb3.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+      </div>
+    </div>
+    <br>
 
-      <button class="w3-button w3-black w3-display-left button" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right button" onclick="plusDivs(1)">&#10095;</button>
+    <div class="container-fluid bg-3 quote1 text-center">
+      <div class="row content">
+        <div class="col-sm-3 padding">
+          <h3>Fire</h3><br>
+          <p>
+            Light is one of life’s necessities. We would not be on this planet if there was no light. When there is no natural light, we need artificial.
+          </p>
+        </div>
+        <div class="col-sm-3 padding">
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+        <div class="col-sm-3 padding">
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+        <div class="col-sm-3 padding">
+          <h3>Candle</h3><br>
+          <p>
+            Light is one of life’s necessities. We would not be on this planet if there was no light. When there is no natural light, we need artificial.
+          </p>
+        </div>
+      </div>
     </div>
 
+    <div class="container-fluid bg-3 text-center" style="padding-top:1%;">
+      <div class="row content">
+        <div class="col-sm-3" style="padding:20px">
+          <div>
+          </div>
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <h3>Aurora</h3><br>
+          <p>
+            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet Earths across its surface.
+          </p>
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <h3>Screen</h3><br>
+          <p>
+            The sun is a big star. At about 864,000 miles (1.4 million kilometers) wide, it could hold 109 planet Earths across its surface.
+          </p>
+        </div>
+        <div class="col-sm-3" style="padding:20px">
+          <img src="images/test.png" align="middle" style="width:100%; max-width:200px; border-radius: 50%" style="border-radius: 50%" alt="Image">
+        </div>
+      </div>
+    </div>
+    <br>
 
-    <div id="bottomNavigationBar">
-      <div> In nature, light creates the color. In the picture, color creates the light. </div>
+    <div id="slideShow" class="container-fluid bg-3 dark-grey text-center">
+      <h3>Photo Gallery</h3><br>
+      <div class="row content" style="align:middle">
+        <!-- <div class="col-sm-10"> -->
+          <!-- <div class="container"> -->
+            <!-- Slideshow container -->
+            <!-- <div id="slideShow" class="w3-content w3-display-container"> -->
+              <img class="mySlides" src="images/example1.jpg">
+              <img class="mySlides" src="images/example2.jpg">
+              <img class="mySlides" src="images/example3.jpg">
+              <img class="mySlides" src="images/example4.jpg">
+              <img class="mySlides" src="images/example5.jpg">
+
+              <button class="w3-button w3-black w3-display-left button" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right button" onclick="plusDivs(1)">&#10095;</button>
+            <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <div class="container-fluid bg-3 pink grad text-center">
+      <div class="container-fluid text-center" style="background-color:#150e38" style="width: 1000px">
+        <p>
+          <br>
+          &copy; Anete un Laura 2018</p>
+      </div>
     </div>
 
     <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
-      }
-
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length}
-        for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
         }
-        x[slideIndex-1].style.display = "block";
+      });
+    </script>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
       }
     </script>
 
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+
+    </script>
   </body>
 </html>
