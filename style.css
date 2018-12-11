@@ -1,16 +1,16 @@
-@font-face {
+/* @font-face {
   font-family: "Avenir Next";
   src: url("fonts/Avenir_Next.eot");
   src:
   url("fonts/Avenir_Next.woff") format("woff"),
   url("fonts/Avenir_Next.otf") format("opentype"),
   url("fonts/Avenir_Next.svg#filename") format("svg");
-}
+} */
 
 body
 {
-  /* font-family: 'Avenir Next'; */
-  font-family: "Avenir Next" !important;
+  /* font-family: "Avenir Next" !important; */
+  font-family: 'Montserrat', sans-serif;
   letter-spacing:2px;
   margin: 0;
 }
@@ -156,10 +156,19 @@ footer
   padding: 25px;
 }
 
+.title_p{
+  font-weight: 600;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .handwriting
 {
   /* font-family: 'Homemade Apple', cursive; */
-  font-family: 'Special Elite', cursive;
+  font-family: 'Podkova', serif, cursive;
   font-size: 20px;
 }
 
