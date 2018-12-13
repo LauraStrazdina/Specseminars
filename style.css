@@ -499,10 +499,10 @@ a:active {
 }
 
 .mySlides{
-  width: 60%;
-  height:60%;
-  margin-right: 20%;
-  margin-left: 20%;
+  width: 80%;
+  height:80%;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 /* Hide the images by default */
